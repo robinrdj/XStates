@@ -80,7 +80,7 @@ function App() {
           return <option key={item} value={item}>{item}</option>
         })}
       </select>
-      {city && <h1>You Selected {country}, {state}, {city}</h1>}
+      {city && <h1>You selected {country}, {state}, {city}</h1>}
     </div>
   )
 }
